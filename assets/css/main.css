@@ -3242,3 +3242,10 @@ input, select, textarea {
 #topBtn:hover {
     background-color: #3eb08f;
 }
+
+#main img {
+	max-width: 80%;
+	height: auto;
+	display: block;
+	margin: 1em auto;
+}
