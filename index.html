@@ -2,6 +2,29 @@
 <html>
 	<head>
 		<title>Zach Freyman Portfolio</title>
+		<style>
+		.model-container {
+			position: relative;
+		}
+		
+		.model-caption-overlay {
+			position: absolute;
+			bottom: 10px;
+			left: 10px;
+			background: rgba(0,0,0,0.6);
+			color: white;
+			padding: 8px 12px;
+			border-radius: 6px;
+			font-size: 14px;
+		}
+
+		.model-caption {
+			text-align: center;
+			font-style: italic;
+			margin-top: 10px;
+			color: #555;
+		}
+		</style>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -90,7 +113,6 @@
             <div>
                 <h3>Software</h3>
                 <div class="skills-grid">
-                    <!-- Add / swap logos in images/logos/ -->
                     <div class="skill-tile">
                         <img src="images/logos/matlab.png" alt="MATLAB logo" />
                         <div class="label">MATLAB</div>
@@ -116,9 +138,6 @@
                         <div class="label">Git</div>
                     </div>
                 </div>
-                <p style="margin-top: 0.9rem; opacity: 0.9;">
-                    (Tip: drop PNG/SVG logo files into <code>images/logos/</code> and update the paths above.)
-                </p>
             </div>
 
             <div>
@@ -166,7 +185,7 @@
 							<article class="col-6 col-12-xsmall work-item">
 								<a href="images/fulls/05.jpg" class="image fit thumb"><img src="images/thumbs/05.jpg" alt="" /></a>
 								<h3><a href="#raptor">Raptor</a></h3>
-								<p>Description.</p>
+								<p>At the age of 13 with some assistance from my dad and YouTube I built my first racing drone, soldering and assembling the vehicle and then trial and erroring my way through the configuration and tuning. This is the earliest example of my taste for challenge and engineering leading me down a rabbit hole that led me straight to my current pursuits of mechanical and aerospace engineering. </p>
 							</article>
 						</div>
 						<ul class="actions">
@@ -203,10 +222,6 @@
                 <p>Short description of a personal project.</p>
             </article>
         </div>
-
-        <ul class="actions">
-            <li><a href="#personal-projects-details" class="button">See Personal Project Details</a></li>
-        </ul>
     </section>
 
 
@@ -274,19 +289,46 @@
 							</model-viewer>
 						</section> -->
 
-						<!-- <section id="raptor" class="box">
+						<section id="raptor" class="box">
 							<h3>Raptor</h3>
-							<p>Description.</p>
-							<model-viewer
-								src="models/raptor.glb"
-								alt="Raptor 3D model"
-								camera-controls
-								auto-rotate
-								shadow-intensity="1"
-								style="width: 100%; height: 420px; background: rgba(0,0,0,0.02); border-radius: 8px;">
-							</model-viewer>
+							<p>
+								I have been building and "engineering", since before I can remember. 
+								However, the first significant example of a product of my own engineering comes from when I was finally old enough to get the 
+								FAA's recreational UAV license at the age of 13. As a result of my age and finally saving enough money from mowing lawns and birthdays 
+								to buy electronics, I ordered a myriad of parts following an online guide for how to build a racing drone. What followed was a 
+								painfully long 5 month wait for overseas shipping to deliver my parts in three separate packages. Upon receiving the final box, 
+								I watched the tutorial on YouTube for what must've been the hundredth time bolting the components together and soldering the now 
+								long-ago upgraded stack of core electronics. Flying my drone, which I had by then nicknamed Raptor, for the first time was an 
+								understandably nerve-racking experience. Luckily, I managed to keep from crashing right away and so began several days of tuning the 
+								numerous PID control loop gains and rates to dial in the handling of my new racing machine. Oddly enough, even after achieving very 
+								good performance from Raptor, I never used the vehicle for the racing it was spec'd for. I very quickly gravitated more towards using 
+								it as a camera platform, another hobby of mine that I still enjoy to this day. I lost track of the major design iterations I 
+								made to the vehicle right around the time I had it labeled as "Mk.14" in my transmitter and by that time had also built two other 
+								FPV [first person view] UAVs for various other mission types. Jumping to present day, Raptor has most recently been employed as a 
+								research vehicle in an experiment studying flocking bird behaviors in Professor Kasey Laurent's aerospace research lab at 
+								Syracuse University.
+							</p>
+							<img src="images/Image (24).jpg">
+
+							<p class="model-caption">Picture caption</p>
+
+							<img src="images/Image (25).jpg">
+
+							<p class="model-caption">Picture caption</p>
+
+							<img src="images/Image (26).jpg">
+
+							<p class="model-caption">Picture caption</p>
+
+							<img src="images/Image (27).jpg">
+
+							<p class="model-caption">Picture caption</p>
+
+							<img src="images/Image (28).jpg">
+
+							<p class="model-caption">Picture caption</p>
 						</section>
-					</section> -->
+					</section>
 
 
 				<!-- Three -->
