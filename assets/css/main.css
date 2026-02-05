@@ -2968,7 +2968,7 @@ input, select, textarea {
 	}
 
 	body.is-touch #header {
-		background-attachment: scroll;
+		background-attachment: fixed;
 		background-size: auto, cover;
 	}
 
